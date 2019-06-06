@@ -1,9 +1,5 @@
 #!/bin/bash
 
-#22:37 - 23:32
-#Semen Alexandrovich Lyhin
-#Why do I need this script?
-
 if [ $# -ne 2 ]; then
     echo "Usage: $0 <file> <how_much_b64_lines_per_echo>"
     echo "Example: $0 x.exe 32 | leafpad"
