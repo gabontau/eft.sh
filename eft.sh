@@ -6,7 +6,7 @@
 
 if [ $# -ne 2 ]; then
     echo "Usage: $0 <file> <how_much_b64_lines_per_echo>"
-    echo "Example: $0 /usr/share/windows-binaries/nc.exe 32 | leafpad"
+    echo "Example: $0 x.exe 32 | leafpad"
 
 else
     base64 $1 > temp.txt
